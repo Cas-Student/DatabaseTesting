@@ -5,8 +5,8 @@ if (mysqli_connect_errno() {
     exit();
 } else {
     $sql = "CREATE TABLE users (fName VARCHAR(10), lName VARCHAR(10), pin INT NOT NULL)";
-  $res = mysqli_query($mysqli, $sql);
-
+    $res = mysqli_query($mysqli, $sql);
+}
 if ($res === TRUE) {
   echo "Table Created";
 } else {
