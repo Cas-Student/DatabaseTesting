@@ -4,7 +4,7 @@ $mysqli = mysqli_connect("ep-sweet-sound-a40jvt3t.us-east-1.pg.koyeb.app","koyeb
 if (mysqli_connect_errno() {
     exit();
 } else {
-    $sql = "CREATE TABLE users (First VARCHAR(10), Last VARCHAR(10), Pin INT NOT NULL)";
+    $sql = "CREATE TABLE users (Pin INT NOT NULL, First VARCHAR(10), Last VARCHAR(10))";
     $res = mysqli_query($mysqli, $sql);
 }
 if ($res === TRUE) {
