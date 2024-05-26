@@ -1,5 +1,5 @@
 <?php
-$mysqli = mysqli_connect("ep-misty-tree-a4x4f674.us-east-1.pg.koyeb.app","koyeb-adm","xtOnbmZ81KYT"."koyebdb")
+$mysqli = mysqli_connect("ep-sweet-sound-a40jvt3t.us-east-1.pg.koyeb.app","koyeb-adm","R24IfvslAyqU"."koyebdb")
 
 if (mysqli_connect_errno() {
     exit();
