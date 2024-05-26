@@ -8,7 +8,7 @@ if (mysqli_connect_errno() {
     $res = mysqli_query($mysqli, $sql);
 }
 if ($res === TRUE) {
-  echo "Table Created";
+    echo "Table Created";
 } else {
   echo "Error";
 }
